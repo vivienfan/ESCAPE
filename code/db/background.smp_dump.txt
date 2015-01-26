@@ -1,0 +1,8 @@
+
+State Machine - |background|state
+Name state.shiftLeft state.draw state.start state.idle state.eraseEnergy 
+state.idle 0 0 0 0 0 
+state.start 0 0 1 1 0 
+state.draw 0 1 0 1 0 
+state.shiftLeft 1 0 0 1 0 
+state.eraseEnergy 0 0 0 1 1 
